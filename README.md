@@ -2,6 +2,7 @@
 
 ### Buat bot mu sendiri yang bisa memainkan musik di VC group kamu
 
+![Mighty Music](https://telegra.ph/file/8626baedc4f597afd030d.jpg)
 
 #### Command yang bisa digunakan semua anggota group
 
