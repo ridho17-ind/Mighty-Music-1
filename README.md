@@ -36,7 +36,7 @@
 
 Gabung Ke [Grup Support](https://t.me/sharinguserbot) Man-UserBot Lalu Ketik #string [TEKAN DISINI](https://t.me/sharinguserbot) Untuk Masuk Ke [Grup Support](https://t.me/sharinguserbot)
 
-### Credits
+### [Yunus Zend](https://github.com/Yunus-ZEND) berterima kasih kepada
 - [Risman](https://github.com/mrismanaziz)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
