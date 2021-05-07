@@ -1,4 +1,6 @@
-<h1 align="centre">🎵 BOT MUSIC MAN 🎵</h1>
+<h1 align="centre"> MIGHTY MUSIC  </h1>
+
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5527057.gif" width="448" height="106" alt="mighty music" /></a>
 
 ### A bot that can play music on telegram group's voice call
 
