@@ -14,6 +14,7 @@
 
 #### Command yang hanya bisa digunakan admin
 ⎆ `/play <link youtube>` - memutar lagu dengan cepat via link youtube
+
 ⎆ `/ytb <judul lagu>` - memutar lagu dengan cepat 
 ⎆ `/dplay <judul lagu>` - memutar lagu yg kamu req via deezer
 ⎆ `/splay <judul lagu>` - memutar lagu yg kamu req via jio saavn
