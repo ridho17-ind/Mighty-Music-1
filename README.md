@@ -1,5 +1,7 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5527057.gif" width="448" height="106" alt="mighty music" /></a>
 
+<h1 align="center">VCG MUSIC BOT</h1>
+
 ![Mighty Music](https://telegra.ph/file/524dbb8894860143f7ed5.jpg)
 
 #### Command yang bisa digunakan semua anggota group ✐
@@ -43,7 +45,7 @@
 
 ⎆ `/admincache` - Refresh daftar admin 
 
-#### Mighty Musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri
+#### _Mighty Musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri_
 
 ### **Deploy Ke Heroku</h4>**
 
