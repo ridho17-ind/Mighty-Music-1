@@ -37,9 +37,9 @@
 
 ⎆ `/end` - menghentikan pemutaran musik
 
-⎆ `/userbotjoin` - invite assisten ke group kamu
+⎆ `/userbotjoin` - invite assisten ke grop kamu
 
-⎆ `/userbotleave` - keluarkan assisten from dari group
+⎆ `/userbotleave` - keluarkan assisten dari grup
 
 ⎆ `/admincache` - Refresh daftar admin 
 
