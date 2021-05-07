@@ -1,6 +1,6 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5527057.gif" width="448" height="106" alt="mighty music" /></a>
-
 <h1 align="center">VCG MUSIC BOT</h1>
+
 ![Mighty Music](https://telegra.ph/file/524dbb8894860143f7ed5.jpg)
 
 #### Command yang bisa digunakan semua anggota group ✐
