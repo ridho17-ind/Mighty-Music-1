@@ -2,7 +2,7 @@
 
 ![Mighty Music](https://telegra.ph/file/524dbb8894860143f7ed5.jpg)
 
-####  ✐ Command yang bisa digunakan semua anggota group
+#### Command yang bisa digunakan semua anggota group ✐
 
 ⎆ `/playlist` - melihat daftar lagu
 
@@ -18,7 +18,7 @@
 
 ⎆ `/video <judul lagu>` - download video yg kamu inginkan
 
-#### Command yang hanya bisa digunakan admin
+#### Command yang hanya bisa digunakan admin ✐
 ⎆ `/play <link youtube>` - memutar lagu dengan cepat via link youtube
 
 ⎆ `/ytb <judul lagu>` - memutar lagu dengan cepat 
