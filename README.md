@@ -4,27 +4,27 @@
 
 ####  ✐ Command yang bisa digunakan semua anggota group
 
-- `/playlist` - melihat daftar lagu
-- `/current` - melihat lagu yg diputar sekarang
-- `/song <judul lagu>` - download lagu dengan cepat
-- `/search <query>` - cari video di youtube dengan detail
-- `/deezer <judul lagu>` - download lagu yg kamu inginkan via deezer
-- `/saavn <judul lagu>` - download lagu yg kamu inginkan via saavn
-- `/video <judul lagu>` - download video yg kamu inginkan
+-⎆ `/playlist` - melihat daftar lagu
+-⎆ `/current` - melihat lagu yg diputar sekarang
+-⎆ `/song <judul lagu>` - download lagu dengan cepat
+-⎆ `/search <query>` - cari video di youtube dengan detail
+-⎆ `/deezer <judul lagu>` - download lagu yg kamu inginkan via deezer
+-⎆ `/saavn <judul lagu>` - download lagu yg kamu inginkan via saavn
+-⎆ `/video <judul lagu>` - download video yg kamu inginkan
 
 #### Command yang hanya bisa digunakan admin
-✥ `/play <link youtube>` - memutar lagu dengan cepat via link youtube
-- `/ytb <judul lagu>` - memutar lagu dengan cepat 
-- `/dplay <judul lagu>` - memutar lagu yg kamu req via deezer
-- `/splay <judul lagu>` - memutar lagu yg kamu req via jio saavn
-- `/player` - buka panel pengaturan pemutar musik
-- `/pause` - jeda pemutaran musik
-- `/resume` - melanjutkan pemutaran musik
-- `/skip` - memutar lagu selanjutnya
-- `/end` - menghentikan pemutaran musik
-- `/userbotjoin` - invite assisten ke group kamu
-- `/userbotleave` - keluarkan assisten from dari group
-- `/admincache` - Refresh daftar admin 
+⎆ `/play <link youtube>` - memutar lagu dengan cepat via link youtube
+⎆ `/ytb <judul lagu>` - memutar lagu dengan cepat 
+⎆ `/dplay <judul lagu>` - memutar lagu yg kamu req via deezer
+⎆ `/splay <judul lagu>` - memutar lagu yg kamu req via jio saavn
+⎆ `/player` - buka panel pengaturan pemutar musik
+⎆ `/pause` - jeda pemutaran musik
+⎆ `/resume` - melanjutkan pemutaran musik
+⎆ `/skip` - memutar lagu selanjutnya
+⎆ `/end` - menghentikan pemutaran musik
+⎆ `/userbotjoin` - invite assisten ke group kamu
+⎆ `/userbotleave` - keluarkan assisten from dari group
+⎆ `/admincache` - Refresh daftar admin 
 
 #### Mighty Musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri
 
