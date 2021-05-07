@@ -2,7 +2,7 @@
 
 ![Mighty Music](https://telegra.ph/file/524dbb8894860143f7ed5.jpg)
 
-#### Command yang bisa digunakan semua anggota group
+####  ✐ Command yang bisa digunakan semua anggota group
 
 - `/playlist` - melihat daftar lagu
 - `/current` - melihat lagu yg diputar sekarang
