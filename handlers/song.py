@@ -68,7 +68,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Lagu Tidak ditemukan.\n\nCoba Masukan nama lagu yang lebih jelas."
+            "❌ Lagu Tidak ditemukan.\n\nCoba cari lagu lain atau eja dengan benar."
         )
         print(str(e))
         return
@@ -273,7 +273,7 @@ async def jssong(_, message):
         await message.reply_text("/saavn masukan judul lagu.")
         return
     if is_downloading:
-        await message.reply_text("Downloadan yang lain sedang berlangsung, coba lagi nanti")
+        await message.reply_text("Download lagu lain sedang berlangsung, coba lagi nanti")
         return
     is_downloading = True
     text = message.text.split(None, 1)[1]
@@ -309,12 +309,12 @@ async def deezsong(_, message):
         await message.reply_text("/deezer masukan judul lagu")
         return
     if is_downloading:
-        await message.reply_text("Downloadan yang lain sedang berlangsung, coba lagi nanti")
+        await message.reply_text("Download lagu lain sedang berlangsung, coba lagi nanti")
         return
     is_downloading = True
     text = message.text.split(None, 1)[1]
     query = text.replace(" ", "%20")
-    m = await message.reply_text("Sedang Mencari Lagu...")
+    m = await message.reply_text("Sedang Mencari Lagu tersebut...")
     try:
         songs = await arq.deezer(query, 1)
         title = songs[0].title
@@ -338,14 +338,14 @@ async def deezsong(_, message):
 async def ytmusic(client,message: Message):
     global is_downloading
     if is_downloading:
-        await message.reply_text("Downloadan yang lain sedang berlangsung, coba lagi nanti")
+        await message.reply_text("Download yang lain sedang berlangsung, coba lagi nanti")
         return
 
     urlissed = get_text(message)
 
     pablo =  await client.send_message(
             message.chat.id,
-            f"`Mendapatkan {urlissed} Dari Youtube. Tunggu Sebentar.`")
+            f"`Mendapatkan {urlissed} Dari Youtube. Mohon Menunggu.`")
     if not urlissed:
         await pablo.edit("Sintaks Perintah Tidak Valid, Silakan Periksa Menu Help Untuk Mengetahui Lebih Lanjut!")
         return
@@ -391,13 +391,13 @@ async def ytmusic(client,message: Message):
             
     
     except Exception as e:
-        #await pablo.edit(event, f"**Failed To Download** \n**Error :** `{str(e)}`")
+        #await pablo.edit(event, f"**Gagal untuk MenDownload** \n**Error :** `{str(e)}`")
         is_downloading = False
         return
     
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"**Nama Video ➠** `{thum}` \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}` \n**Link :** `{mo}`"
+    capy = f"**Nama Video ➠** `{thum}` \n**Request For :** `{urlissed}` \n**Channel :** `{thums}` \n**Link :** `{mo}`"
     await client.send_video(message.chat.id, video = open(file_stark, "rb"), duration = int(ytdl_data["duration"]), file_name = str(ytdl_data["title"]), thumb = sedlyf, caption = capy, supports_streaming = True , progress=progress, progress_args=(pablo, c_time, f'`Uploading {urlissed} Song From YouTube Music!`', file_stark))
     await pablo.delete()
     is_downloading = False
