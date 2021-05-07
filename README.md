@@ -1,7 +1,5 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5527057.gif" width="448" height="106" alt="mighty music" /></a>
 
-### Buat bot mu sendiri yang bisa memainkan musik di VC group kamu
-
 ![Mighty Music](https://telegra.ph/file/8626baedc4f597afd030d.jpg)
 
 #### Command yang bisa digunakan semua anggota group
