@@ -52,6 +52,8 @@
 
 <p align="center"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=150px></a></p> <p align="center"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=170px></a></p>
 
+##### _Anda bisa melihat @MightyMusicV2_bot sebagai contoh hasil dari deploy reposity ini_
+
 ### CREDIT
 - [Yunus Zend](https://github.com/Yunus-ZEND)
 - [Risman](https://github.com/mrismanaziz)
