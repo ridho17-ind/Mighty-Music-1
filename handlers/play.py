@@ -456,7 +456,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dibanned dalam grup."
-                                  "\n\nAtau tambahkan secara manual @botmusikman ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @MightyMusicV2_bot ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
