@@ -32,7 +32,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrismanaziz/Music-Man)
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yunus-ZEND/Mighty-Music"> <img src="https://img.shields.io/badge/Click%20Untuk%20Deploy-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ### Generate String Session
 
