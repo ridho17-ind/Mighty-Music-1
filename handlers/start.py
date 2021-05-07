@@ -26,35 +26,37 @@ from config import BOT_NAME as bn
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
+    await message.reply_sticker("CAACAgUAAxkBAAEJX5NgelpPxIp7TxBi31AWY0e6awyNoAACrwIAAiZaqFetusa6iC_gHx8E")
     await message.reply_text(
-        f"""<b>┗┓ Haii {message.from_user.first_name} My Name is 𝙈𝙐𝙎𝙄𝘾 𝙈𝘼𝙉 ┏┛\n
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti :
-┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
-┗━━━━━━━━━━━━━━
-❃ Managed With ☕️ By : [Risman](https://t.me/mrismanaziz)
-❃ Thanks To : [Risman](https://t.me/mrismanaziz)
-━━━━━━━━━━━━━━━
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
-</b>""",
+        f"""**┗┓| VCG BOT MUSIK |┏┛**
 
-# Edit Yang Perlu Lu ganti 
-# Tapi Jangan di Hapus Thanks To nya Yaaa :D
+**Hallo {message.from_user.first_name} **🙋‍♂
+Nama saya adalah __[Music Asssistant Bot](https://t.me/MightyMusicV2_bot)__
+Saya bisa memutar musik di Voice Call Grup kamu
+━━━━━━━━━━━━━━━━━━━━
+Dikelola oleh **[Yunus Zend](https://t.me/ZendYNS)** 👨‍💻
+
+❖ __Tambahkan **__[Music Assistant](https://t.me/MightyMusicV2)__** __dan__ **__[Music Bot](https://t.me/MightyMusicV2_bot)__** __ke grup Anda, dan rasakan sensasi mendengar musik di__ __**VC Group**__ __anda!!__
+""",
+
+# Edit Yang Perlu diganti saja agar tak terjadi kesalahan
+# Ganti teks link bagian dalam dari tanda ()
+# Dengan link akun asisten mu dan link bot kamu sesuai tempat yg seharusnya yah
 
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20")
+                        "📇 Command yang tersedia 📇", url="https://t.me/Lunatic0de/20")
                   ],[
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "💭 Group Support", url="https://t.me/KingUserbotSupport"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/Lunatic0de"
+                        "👨‍💻 Creator 👨‍💻", url="https://t.me/ZendYNS"
+                    ),
+                    InlineKeyboardButton(
+                        "Channel 🔉", url="https://t.me/Lunatic0de"
                     )
                 ]
             ]
@@ -74,7 +76,7 @@ async def start(client: Client, message: Message):
             [   
                 [    
                     InlineKeyboardButton(
-                        "✅ Ya", switch_inline_query_current_chat=""
+                        "✅ Iya", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
@@ -110,15 +112,15 @@ async def help(client: Client, message: Message):
     & ~ filters.edited
 )
 async def reload(client: Client, message: Message):
-    await message.reply_text("""✅ Bot **berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**""",
+    await message.reply_text("""✅ **Bot berhasil dimulai ulang!**\n\n• **Daftar admin** telah **diperbarui**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/SharingUserbot"
+                        "💭 Group Support", url="https://t.me/KingUserbotSupport"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/mrismanaziz"
+                        "👨‍💻 Owner", url="https://t.me/ZendYNS"
                     )
                 ]
             ]
