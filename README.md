@@ -6,17 +6,17 @@
 
 - `/playlist` - melihat daftar lagu
 - `/current` - melihat lagu yg diputar sekarang
-- `/song <song name>` - download lagu dengan cepat
+- `/song <judul lagu>` - download lagu dengan cepat
 - `/search <query>` - cari video di youtube dengan detail
-- `/deezer <song name>` - download lagu yg kamu inginkan via deezer
-- `/saavn <song name>` - download lagu yg kamu inginkan via saavn
-- `/video <song name>` - download video yg kamu inginkan
+- `/deezer <judul lagu>` - download lagu yg kamu inginkan via deezer
+- `/saavn <judul lagu>` - download lagu yg kamu inginkan via saavn
+- `/video <judul lagu>` - download video yg kamu inginkan
 
 #### Command yang hanya bisa digunakan admin
 - `/play <link youtube>` - memutar lagu dengan cepat via link youtube
-- `/play <song name>` - memutar lagu dengan cepat 
-- `/dplay <song name>` - memutar lagu yg kamu req via deezer
-- `/splay <song name>` - memutar lagu yg kamu req via jio saavn
+- `/ytb <judul lagu>` - memutar lagu dengan cepat 
+- `/dplay <judul lagu>` - memutar lagu yg kamu req via deezer
+- `/splay <judul lagu>` - memutar lagu yg kamu req via jio saavn
 - `/player` - buka panel pengaturan pemutar musik
 - `/pause` - jeda pemutaran musik
 - `/resume` - melanjutkan pemutaran musik
