@@ -1,46 +1,32 @@
-<h1 align="centre"> MIGHTY MUSIC  </h1>
-
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5527057.gif" width="448" height="106" alt="mighty music" /></a>
 
-### A bot that can play music on telegram group's voice call
-
+### Buat bot mu sendiri yang bisa memainkan musik di VC group kamu
 <h2> Whats new 🔥 </h2>
 
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
-- Settings panel
-- Control with buttons
-- Userbot / assistant bot music auto join
-- inline bot youtube search
 
-### Commands 🛠
-#### For all in group
+#### Command yang bisa digunakan semua anggota group
 
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/video <song name>` - download videos you want quickly
+- `/playlist` - melihat daftar lagu
+- `/current` - melihat lagu yg diputar sekarang
+- `/song <song name>` - download lagu dengan cepat
+- `/search <query>` - cari video di youtube dengan detail
+- `/deezer <song name>` - download lagu yg kamu inginkan via deezer
+- `/saavn <song name>` - download lagu yg kamu inginkan via saavn
+- `/video <song name>` - download video yg kamu inginkan
 
-#### Admins only.
-- `/play <link youtube>` - play song you requested via link youtube
-- `/play <song name>` - play song you requested by song name
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/admincache` - Refresh admin list
+#### Command yang hanya bisa digunakan admin
+- `/play <link youtube>` - memutar lagu dengan cepat via link youtube
+- `/play <song name>` - memutar lagu dengan cepat 
+- `/dplay <song name>` - memutar lagu yg kamu req via deezer
+- `/splay <song name>` - memutar lagu yg kamu req via jio saavn
+- `/player` - buka panel pengaturan pemutar musik
+- `/pause` - jeda pemutaran musik
+- `/resume` - melanjutkan pemutaran musik
+- `/skip` - memutar lagu selanjutnya
+- `/end` - menghentikan pemutaran musik
+- `/userbotjoin` - invite assisten ke group kamu
+- `/userbotleave` - keluarkan assisten from dari group
+- `/admincache` - Refresh daftar admin 
 
 #### Based on Callsmusic-1 & DAISYXMUSIC
 
