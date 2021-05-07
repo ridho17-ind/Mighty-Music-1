@@ -35,14 +35,14 @@
 <p align="left"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=140px></a></p> <p align="right"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=160px></a></p>
 
 #### CREDIT
-- [Yunus Zend](https://github.com/Yunus-ZEND) 
+- [Yunus Zend](https://github.com/Yunus-ZEND)
 - [Risman](https://github.com/mrismanaziz)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
 - [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
 - [Hamker Cat](https://github.com/thehamkercat/)
-- [Anjana-Ma](https://github.com/Anjana-Ma): 
-- [ImJanindu](https://github.com/ImJanindu): 
+- [Anjana-Ma](https://github.com/Anjana-Ma)
+- [ImJanindu](https://github.com/ImJanindu)
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo owners](https://github.com/suprojects/CallsMusic)
