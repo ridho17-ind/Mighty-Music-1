@@ -37,7 +37,7 @@
 
 ⎆ `/end` - menghentikan pemutaran musik
 
-⎆ `/userbotjoin` - invite assisten ke grop kamu
+⎆ `/userbotjoin` - invite assisten ke grup kamu
 
 ⎆ `/userbotleave` - keluarkan assisten dari grup
 
@@ -51,7 +51,7 @@
 
 <p align="center"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=150px></a></p> <p align="center"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=170px></a></p>
 
-#### CREDIT
+### CREDIT
 - [Yunus Zend](https://github.com/Yunus-ZEND)
 - [Risman](https://github.com/mrismanaziz)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
