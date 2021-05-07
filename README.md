@@ -26,9 +26,10 @@
 - `/userbotleave` - keluarkan assisten from dari group
 - `/admincache` - Refresh daftar admin 
 
+#### Mighty Musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri
+
 ### Deploy Ke Heroku</h4>
 
-#### Mighty musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yunus-ZEND/Mighty-Music"> <img src="https://img.shields.io/badge/Click%20Untuk%20Deploy-black?style=flat&logo=heroku" width="200" height="32.45" /></a></p>
 
 <p align="left"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=140px></a></p> <p align="right"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=160px></a></p>
