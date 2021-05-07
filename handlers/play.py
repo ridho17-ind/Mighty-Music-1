@@ -414,12 +414,12 @@ async def m_cb(b, cb):
         else:
             await cb.answer('Assistant Sedang Tidak Terhubung dengan VCG', show_alert=True)
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("ytb") & other_filters)
 @errors
 @authorized_users_only
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Sedang Memproses Lagu**")
+    lel = await message.reply("🔄 **__Sedang Memproses Lagu tersebut__**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -480,7 +480,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **Sedang Memproses Lagu**")
+    await lel.edit("📲 **__Sedang Memproses Lagu tersebut__**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -535,7 +535,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
         photo="final.png", 
-        caption=f"🎼 Lagu yang Anda minta **Sedang Antri** di posisi {position}!",
+        caption=f"🎼 **Lagu yang Anda minta Sedang Antri di posisi {position}!**",
         reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
@@ -552,7 +552,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="🎼️ **Sedang Memutar** Lagu Permintaan dari {}".format(
+        caption="🎼️ **__Sedang Memutar Lagu Permintaan dari {}__**".format(
         message.from_user.mention()
         ),
     )
@@ -568,7 +568,7 @@ async def play(_, message: Message):
 @authorized_users_only
 async def deezer(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Sedang Memproses Lagu**")
+    lel = await message_.reply("📲 **Sedang Memproses Lagu tersebut**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
@@ -700,13 +700,13 @@ async def deezer(client: Client, message_: Message):
 @authorized_users_only
 async def jiosaavn(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Sedang Memproses Lagu**")
+    lel = await message_.reply("📲 **__Sedang Memproses Lagu tersebut__**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicMan"
+        user.first_name =  "Mighty Music"
     usar = user
     wew = usar.id
     try:
@@ -828,7 +828,7 @@ async def jiosaavn(client: Client, message_: Message):
         chat_id=message_.chat.id,
         reply_markup=keyboard,
         photo="final.png",
-        caption=f"🎼️ **Sedang Memutar** Lagu {sname} Via Jiosaavn",
+        caption=f"🎼️ __**Sedang Memutar Lagu {sname} Via Jiosaavn__",
         
     )
     os.remove("final.png")
