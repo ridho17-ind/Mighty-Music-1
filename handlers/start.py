@@ -47,7 +47,7 @@ Dikelola oleh **[Yunus Zend](https://t.me/ZendYNS)** 👨‍💻
             [ 
                 [
                     InlineKeyboardButton(
-                        "📇 Command yang tersedia 📇", url="https://t.me/Lunatic0de/20")
+                        "📇 Command yang tersedia 📇", url="https://t.me/botinfochannel/5")
                   ],[
                     InlineKeyboardButton(
                         "💭 Group Support", url="https://t.me/KingUserbotSupport"
@@ -56,7 +56,7 @@ Dikelola oleh **[Yunus Zend](https://t.me/ZendYNS)** 👨‍💻
                         "👨‍💻 Creator 👨‍💻", url="https://t.me/ZendYNS"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔉", url="https://t.me/Lunatic0de"
+                        "Channel 🔉", url="https://t.me/botinfochannel"
                     )
                 ]
             ]
@@ -98,7 +98,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/botinfochannel/5"
                     )
                 ]
             ]
