@@ -501,26 +501,24 @@ async def play(_, message: Message):
         return
 
     keyboard = InlineKeyboardMarkup(
-            [   
-                [
-                               
-                    InlineKeyboardButton('📖 Daftar Putar', callback_data='playlist'),
-                    InlineKeyboardButton("⛑ Group Support", url="https://t.me/SharingUserbot")
-                
-                ],                     
+            [
                 [
                     InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
-                    )
-                ],
-                [       
-                    InlineKeyboardButton(
-                        text="🗑 Close",
-                        callback_data='cls')
-
-                ]                             
-            ]
-        )
+                        "💭 Group Support", url="https://t.me/KingUserbotSupport"
+                  ),
+                    InlineKeyboardButton( 
+                        "Creator 👨‍💻", url="https://t.me/ZendYNS")
+              ],[
+                    InlineKeyboardButton( 
+                        '📖 Daftar Putar', callback_data='playlist'
+                  ), 
+                    InlineKeyboardButton( 
+                        text="Close 🗑",
+                        callback_data='cls' 
+                  )
+              ] 
+          ] 
+      )
     requested_by = message.from_user.first_name
     await generate_cover(requested_by, title, views, duration, thumbnail)  
     file_path = await converter.convert(youtube.download(url))
@@ -574,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicMan"
+        user.first_name =  "Mighty Music"
     usar = user
     wew = usar.id
     try:
@@ -636,26 +634,24 @@ async def deezer(client: Client, message_: Message):
         is_playing = False
         return
     keyboard = InlineKeyboardMarkup(
-            [   
-                [
-                               
-                    InlineKeyboardButton('📖 Daftar Putar', callback_data='playlist'),
-                    InlineKeyboardButton("⛑ Group Support", url="https://t.me/SharingUserbot")
-                
-                ],                     
+            [
                 [
                     InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
-                    )
-                ],
-                [       
-                    InlineKeyboardButton(
-                        text="🗑 Close",
-                        callback_data='cls')
-
-                ]                             
-            ]
-     )
+                        "💭 Group Support", url="https://t.me/KingUserbotSupport"
+                  ),
+                    InlineKeyboardButton( 
+                        "Creator 👨‍💻", url="https://t.me/ZendYNS")
+              ],[
+                    InlineKeyboardButton( 
+                        '📖 Daftar Putar', callback_data='playlist'
+                  ), 
+                    InlineKeyboardButton( 
+                        text="Close 🗑",
+                        callback_data='cls' 
+                  )
+              ] 
+          ] 
+      )
     file_path= await converter.convert(wget.download(url))
     await res.edit("Generating Thumbnail")
     await generate_cover(requested_by, title, artist, duration, thumbnail)
@@ -772,26 +768,24 @@ async def jiosaavn(client: Client, message_: Message):
         is_playing = False
         return
     keyboard = InlineKeyboardMarkup(
-            [   
-                [
-                               
-                    InlineKeyboardButton('📖 Daftar Putar', callback_data='playlist'),
-                    InlineKeyboardButton("⛑ Group Support", url="https://t.me/SharingUserbot")
-                
-                ],                     
+            [
                 [
                     InlineKeyboardButton(
-                        "Owner Music Man", url="https://instagram.com/mrismanaziz_"
-                    )
-                ],
-                [       
-                    InlineKeyboardButton(
-                        text="🗑 Close",
-                        callback_data='cls')
-
-                ]                             
-            ]
-     )
+                        "💭 Group Support", url="https://t.me/KingUserbotSupport"
+                  ),
+                    InlineKeyboardButton( 
+                        "Creator 👨‍💻", url="https://t.me/ZendYNS")
+              ],[
+                    InlineKeyboardButton( 
+                        '📖 Daftar Putar', callback_data='playlist'
+                  ), 
+                    InlineKeyboardButton( 
+                        text="Close 🗑",
+                        callback_data='cls' 
+                  )
+              ] 
+          ] 
+      )
     file_path= await converter.convert(wget.download(slink))
     if message_.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message_.chat.id, file=file_path)
