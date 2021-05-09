@@ -87,7 +87,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("❌ Memberhentikan Lagu!")
+        await message.reply_text("❌ Memberhentikan Lagu tersebut!")
 
 
 @Client.on_message(command("skip") & other_filters)
@@ -114,7 +114,7 @@ async def skip(_, message: Message):
         skip = qeue.pop(0)
     if not qeue:
         return
-    await message.reply_text(f'- Melewati Lagu **{skip[0]}**\n- Sekarang Memutar Lagu **{qeue[0][0]}**')
+    await message.reply_text(f'⎆ __Melewati Lagu__ **{skip[0]}**\n⎆ __Sekarang Memutar Lagu__ **{qeue[0][0]}**')
 
 
 @Client.on_message(
@@ -123,4 +123,4 @@ async def skip(_, message: Message):
 @errors
 async def admincache(client, message: Message):
     set(message.chat.id, [member.user for member in await message.chat.get_members(filter="administrators")])
-    #await message.reply_text(" Admin cache refreshed!") 
+    #await message.reply_text(" Refresh admin cache!") 
