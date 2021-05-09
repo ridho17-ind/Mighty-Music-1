@@ -22,7 +22,7 @@
 #### Command yang hanya bisa digunakan admin ✐
 ⎆ `/play <link youtube>` - memutar lagu dengan cepat via link youtube
 
-⎆ `/ytb <judul lagu>` - memutar lagu dengan cepat 
+⎆ `/ytb <judul lagu>` - memutar lagu dengan cepat, ini metode terbaik!!
 
 ⎆ `/dplay <judul lagu>` - memutar lagu yg kamu req via deezer
 
@@ -38,9 +38,9 @@
 
 ⎆ `/end` - menghentikan pemutaran musik
 
-⎆ `/userbotjoin` - invite assisten ke grup kamu
+⎆ `/asistenjoin` - invite assisten ke grup kamu
 
-⎆ `/userbotleave` - keluarkan assisten dari grup
+⎆ `/kickasisten` - keluarkan assisten dari grup
 
 ⎆ `/admincache` - Refresh daftar admin 
 
