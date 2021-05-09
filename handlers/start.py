@@ -32,11 +32,12 @@ async def start_(client: Client, message: Message):
 
 **Hallo {message.from_user.first_name} **🙋‍♂
 Nama saya adalah __[Music Asssistant Bot](https://t.me/MightyMusicV2_bot)__
-Saya bisa memutar musik di Voice Call Grup kamu
+Saya bisa memutar musik di **Voice Call Grup** kamu
+**Anda harus menjadikan saya admin untuk menjalankan perintah!!**
 ━━━━━━━━━━━━━━━━━━━━
 Dikelola oleh **[Yunus Zend](https://t.me/ZendYNS)** 👨‍💻
 
-❖ __Tambahkan **__[Music Assistant](https://t.me/MightyMusicV2)__** __dan__ **__[Music Bot](https://t.me/MightyMusicV2_bot)__** __ke grup Anda, dan rasakan sensasi mendengar musik di__ __**VC Group**__ __anda!!__
+❖ __Tambahkan [Music Assistant](https://t.me/MightyMusicV2) dan [Music Bot](https://t.me/MightyMusicV2_bot) ke grup Anda, dan rasakan sensasi mendengar musik di VC Group anda!!__
 """,
 
 # Edit Yang Perlu diganti saja agar tak terjadi kesalahan
