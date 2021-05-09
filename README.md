@@ -52,7 +52,7 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yunus-ZEND/Mighty-Music"> <img src="https://img.shields.io/badge/Click%20Untuk%20Deploy-black?style=flat&logo=heroku" width="200" height="32.45" /></a></p>
 
 ### Ambil String Session Disini
-`Klik tombol dibawah untuk membuat string kamu`
+`Klik tombol ini untuk membuat string kamu`
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-blackred)](https://replit.com/@yunuszend/String-Session#.replit)
 
 ### Saya Ada Di Telegram
