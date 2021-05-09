@@ -55,7 +55,7 @@
 `Klik tombol dibawah untuk membuat string kamu`
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@yunuszend/String-Session#.replit)
 
-<p align="center"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=150px></a></p> <p align="center"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=170px></a></p>
+<p align="left"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=150px></a></p> <p align="left"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=170px></a></p>
 
 ##### _Anda bisa melihat [@MightyMusicV2_bot](https://t.me/MightyMusicV2_bot) sebagai contoh hasil dari deploy reposity ini_
 
