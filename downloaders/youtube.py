@@ -46,4 +46,4 @@ def download(url: str) -> str:
         raise DurationLimitError(
             f"❌ Video lebih lama dari {DURATION_LIMIT} minute(s) tidak diizinkan, video yang disediakan adalah {duration} minute(s)"
         )
-    return path.join("downloads", f"{info['id']}.{info['ext']}")
+    return path.join("downloads", f"{info['id']}.{info['ext']}") 
