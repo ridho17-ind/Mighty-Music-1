@@ -261,8 +261,8 @@ async def p_cb(b, cb):
         now_playing = temp[0][0]
         by = temp[0][1].mention(style='md')
         msg = "**Lagu Yang Sedang dimainkan** di {}".format(cb.message.chat.title)
-        msg += "\n- "+ now_playing
-        msg += "\n- Req by "+by
+        msg += "\n⎆  "+ now_playing
+        msg += "\n⎆  Request dari "+by
         temp.pop(0)
         if temp:
              msg += '\n\n'
@@ -270,8 +270,8 @@ async def p_cb(b, cb):
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
-                 msg += f'\n- {name}'
-                 msg += f'\n- Req by {usr}\n'
+                 msg += f'\n⎆  {name}'
+                 msg += f'\n⎆  Request dari {usr}\n'
         await cb.message.edit(msg)      
 
 @Client.on_callback_query(filters.regex(pattern=r'^(play|pause|skip|leave|puse|resume|menu|cls)$'))
