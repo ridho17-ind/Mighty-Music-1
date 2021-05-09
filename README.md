@@ -47,8 +47,13 @@
 #### _Mighty Musik dapat memutar musik di VC Group anda, silahkan deploy dan fork untuk mengedit bot musik mu sendiri_
 
 ### **Deploy Ke Heroku</h4>**
+`Klik tombol dibawah untuk deploy Mighty Music`
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yunus-ZEND/Mighty-Music"> <img src="https://img.shields.io/badge/Click%20Untuk%20Deploy-black?style=flat&logo=heroku" width="200" height="32.45" /></a></p>
+
+### Ambil String Session Disini
+`Klik tombol dibawah untuk membuat string kamu`
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@yunuszend/String-Session#.replit)
 
 <p align="center"><a href="https://t.me/ZendYNS"><img src="https://img.shields.io/badge/My%20Contact%3F-click here-magenta?&style=flat-square?&logo=telegram" width=150px></a></p> <p align="center"><a href="https://t.me/KingUserbotSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-click here-yellow?&style=flat-square?&logo=telegram" width=170px></a></p>
 
