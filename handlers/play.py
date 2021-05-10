@@ -552,7 +552,7 @@ async def play(_, message: Message):
         reply_markup=keyboard,
         caption="🎼️ **__Sedang Memutar Lagu Permintaan dari {}__**".format(
         message.from_user.mention()
-        msg +="\n🔘 **__Judul Lagu: "+ now_playing**__
+        msg +="\n🔘 **__Judul Lagu: {title}__**
         msg +="\n🔘 **__Durasi: {duration}__**
         ),
     )
