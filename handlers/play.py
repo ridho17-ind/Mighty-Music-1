@@ -179,7 +179,7 @@ def updated_stats(chat, queue, vol=100):
             stats += 'Volume : {}%\n'.format(vol)
             stats += 'Lagu dalam antrian : `{}`\n'.format(len(que))
             stats += 'Sedang dimainkan : **{}**\n'.format(queue[0][0])
-            stats += 'Requested by : {}'.format(queue[0][1].mention)
+            stats += 'Request dari : {}'.format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -551,7 +551,9 @@ async def play(_, message: Message):
         photo="final.png",
         reply_markup=keyboard,
         caption="🎼️ **__Sedang Memutar Lagu Permintaan dari {}__**".format(
-        message.from_user.mention()\n🔘 **__Judul Lagu: {title}__**\n🔘 **__Durasi: {duration}__**
+        message.from_user.mention()
+        msg +="\n🔘 **__Judul Lagu: "+ now_playing**__
+        msg +="\n🔘 **__Durasi: {duration}__**
         ),
     )
         os.remove("final.png")
