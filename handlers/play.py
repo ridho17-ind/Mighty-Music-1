@@ -160,11 +160,11 @@ async def playlist(client, message):
     temp.pop(0)
     if temp:
         msg += '\n\n'
-        msg += '**Antrian Lagu**'
+        msg += '**Daftar Antrian Lagu**'
         for song in temp:
             name = song[0]
             usr = song[1].mention(style='md')
-            msg += f'\n⎆ {name}'
+            msg += f'\n⎆ Judul: {name}'
             msg += f'\n⎆ Request dari: {usr}\n'
     await message.reply_text(msg)       
     
@@ -550,7 +550,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="🎼️ **__Sedang Memutar Lagu Permintaan dari {}__**".format(
+        caption="🎼️ **__Sedang Memutar Lagu Permintaan dari {}__**\n🔘 **__Judul Lagu: {title}__**\n🔘 **__Durasi: {duration}__**".format(
         message.from_user.mention()
         ),
     )
